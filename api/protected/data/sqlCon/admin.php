@@ -1,0 +1,52 @@
+<?php
+	$aSQLCon = array (
+		"admin"=>array(
+			"tableName"=>"admin",
+			"element"=>array(
+				"admin_id"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"username"=>array(
+					"type"=>"varchar",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"password"=>array(
+					"type"=>"varchar",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"email"=>array(
+					"type"=>"varchar",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"this_login_time"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"this_login_ip"=>array(
+					"type"=>"varchar",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"last_login_time"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"last_login_ip"=>array(
+					"type"=>"varchar",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+			),
+			"priKey"=>"id",
+			"abre"=>"admin"
+		),
+	);
+?>
+

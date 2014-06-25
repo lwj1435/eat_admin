@@ -1,0 +1,32 @@
+<?php
+	$aSQLCon = array (
+		"merchant_menu"=>array(
+			"tableName"=>"merchant_menu",
+			"element"=>array(
+				"menu_id"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"menu_name"=>array(
+					"type"=>"varchar",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"menu_tag"=>array(
+					"type"=>"text",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"merchant_id"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+			),
+			"priKey"=>"id",
+			"abre"=>"merchant_menu"
+		),
+	);
+?>
+

@@ -1,0 +1,57 @@
+<?php
+	$aSQLCon = array (
+		"user_log"=>array(
+			"tableName"=>"user_log",
+			"element"=>array(
+				"id"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"list"
+				),
+				"longin_time"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"out_time"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"longin_type"=>array(
+					"type"=>"varchar",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"login_ip"=>array(
+					"type"=>"varchar",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"user_id"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"latitude"=>array(
+					"type"=>"double",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"longitude"=>array(
+					"type"=>"double",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"altitude"=>array(
+					"type"=>"double",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+			),
+			"priKey"=>"id",
+			"abre"=>"user_log"
+		),
+	);
+?>
+

@@ -1,0 +1,37 @@
+<?php
+	$aSQLCon = array (
+		"items"=>array(
+			"tableName"=>"items",
+			"element"=>array(
+				"name"=>array(
+					"type"=>"varchar",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"type"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"description"=>array(
+					"type"=>"text",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"bizrule"=>array(
+					"type"=>"text",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"data"=>array(
+					"type"=>"text",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+			),
+			"priKey"=>"id",
+			"abre"=>"items"
+		),
+	);
+?>
+

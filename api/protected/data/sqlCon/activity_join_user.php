@@ -1,0 +1,42 @@
+<?php
+	$aSQLCon = array (
+		"activity_join_user"=>array(
+			"tableName"=>"activity_join_user",
+			"element"=>array(
+				"id"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"list"
+				),
+				"at_id"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"user_id"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"add_time"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"status"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"up_time"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+			),
+			"priKey"=>"id",
+			"abre"=>"activity_join_user"
+		),
+	);
+?>
+

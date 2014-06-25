@@ -1,0 +1,47 @@
+<?php
+	$aSQLCon = array (
+		"ff_block_list"=>array(
+			"tableName"=>"ff_block_list",
+			"element"=>array(
+				"id"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"list"
+				),
+				"user_id"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"user_name"=>array(
+					"type"=>"varchar",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"type"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"admin_id"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"desc"=>array(
+					"type"=>"text",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"status"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+			),
+			"priKey"=>"id",
+			"abre"=>"ff_block_list"
+		),
+	);
+?>
+

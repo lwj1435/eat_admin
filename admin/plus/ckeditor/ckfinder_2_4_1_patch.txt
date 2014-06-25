@@ -1,0 +1,21 @@
+ckfinder 2.4.1 patch
+
+修改 ckfinder.js 
+
+1.主窗口
+
+  搜索:  if((W.eu&& !aT||aa)&&W.mj){Y.addClass('files_message')
+  替换为 if((W.eu&& !aT||aa)&&W.mj!=P){Y.addClass('files_message')
+
+2.文件夹左下角
+
+  搜索:   A||B||y!=4?t:u
+  替换为: A||B||y!=4?'':u
+
+3.移动文件(共4个a.bF替换为0)
+
+   搜索:   if(a.bF&&1==a.bs.indexOf(a.bF.substr(1,1))%5&&a.lS(L)!=a.lS(a.ed)||a.bF&&a.bF.substr(3,1)
+   替换为: if(0&&1==a.bs.indexOf(a.bF.substr(1,1))%5&&a.lS(L)!=a.lS(a.ed)||0&&a.bF.substr(3,1)
+
+   搜索:   if(a.bF&&1==a.bs.indexOf(a.bF.substr(1,1))%5&&a.lS(t)!=a.lS(a.ed)||a.bF&&a.bF.substr(3,1)
+   替换为: if(0&&1==a.bs.indexOf(a.bF.substr(1,1))%5&&a.lS(t)!=a.lS(a.ed)||0&&a.bF.substr(3,1)

@@ -1,0 +1,1681 @@
+2014/06/17 16:47:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 16:47:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 16:47:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 16:47:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 16:47:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 16:47:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 16:48:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 16:48:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 16:48:06 [warning] [application] Failed to set unsafe attribute "mid" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:48:06 [warning] [application] Failed to set unsafe attribute "merchant_othername" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:48:06 [warning] [application] Failed to set unsafe attribute "merchant_manager" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:48:06 [warning] [application] Failed to set unsafe attribute "merchant_start_time" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:48:06 [warning] [application] Failed to set unsafe attribute "merchant_end_time" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:48:06 [warning] [application] Failed to set unsafe attribute "merchant_ser" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:48:06 [warning] [application] Failed to set unsafe attribute "merchant_tag" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:48:06 [warning] [application] Failed to set unsafe attribute "pro" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:48:06 [warning] [application] Failed to set unsafe attribute "city" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:48:06 [warning] [application] Failed to set unsafe attribute "area" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:48:06 [warning] [application] Failed to set unsafe attribute "address" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:48:06 [warning] [application] Failed to set unsafe attribute "longitude" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:48:06 [warning] [application] Failed to set unsafe attribute "latitude" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:48:06 [warning] [application] Failed to set unsafe attribute "merchant_traffic" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:48:06 [warning] [application] Failed to set unsafe attribute "free_service" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:48:06 [warning] [application] Failed to set unsafe attribute "merchant_desc" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:48:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 16:48:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 16:48:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 16:48:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 16:48:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 16:48:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 16:48:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 16:50:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 16:51:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 16:52:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 16:52:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 16:52:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 16:52:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 16:54:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "files/123.wav"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('files/123.wav')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/files/123.wav
+HTTP_REFERER=http://testadmin.77tng.com/goods/goodsResource.html
+---
+2014/06/17 16:54:48 [warning] [application] Failed to set unsafe attribute "mid" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:54:48 [warning] [application] Failed to set unsafe attribute "merchant_othername" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:54:48 [warning] [application] Failed to set unsafe attribute "merchant_manager" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:54:48 [warning] [application] Failed to set unsafe attribute "merchant_start_time" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:54:48 [warning] [application] Failed to set unsafe attribute "merchant_end_time" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:54:48 [warning] [application] Failed to set unsafe attribute "merchant_ser" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:54:48 [warning] [application] Failed to set unsafe attribute "merchant_tag" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:54:48 [warning] [application] Failed to set unsafe attribute "pro" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:54:48 [warning] [application] Failed to set unsafe attribute "city" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:54:48 [warning] [application] Failed to set unsafe attribute "area" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:54:48 [warning] [application] Failed to set unsafe attribute "address" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:54:48 [warning] [application] Failed to set unsafe attribute "longitude" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:54:48 [warning] [application] Failed to set unsafe attribute "latitude" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:54:48 [warning] [application] Failed to set unsafe attribute "merchant_traffic" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:54:48 [warning] [application] Failed to set unsafe attribute "free_service" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:54:48 [warning] [application] Failed to set unsafe attribute "merchant_desc" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:54:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 16:54:50 [error] [php] Undefined variable: isOk (/home/www/eatAdmin/admin/protected/views/feedback/new.php:21)
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CController.php(869): FeedbackController->renderFile()
+#1 /home/www/eatAdmin/framework/web/CController.php(782): FeedbackController->renderPartial()
+#2 /home/www/eatAdmin/admin/protected/controllers/FeedbackController.php(78): FeedbackController->render()
+#3 /home/www/eatAdmin/framework/web/actions/CInlineAction.php(49): FeedbackController->actionNew()
+#4 /home/www/eatAdmin/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/www/eatAdmin/framework/web/filters/CFilterChain.php(133): FeedbackController->runAction()
+#6 /home/www/eatAdmin/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /home/www/eatAdmin/framework/web/filters/CFilterChain.php(130): AdminFilter->filter()
+#8 /home/www/eatAdmin/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/www/eatAdmin/framework/web/CController.php(265): FeedbackController->runActionWithFilters()
+#10 /home/www/eatAdmin/framework/web/CWebApplication.php(282): FeedbackController->run()
+#11 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/www/eatAdmin/admin/index.php(17): CWebApplication->run()
+REQUEST_URI=/feedback/new.html
+in /home/www/eatAdmin/admin/protected/views/feedback/new.php (21)
+in /home/www/eatAdmin/admin/protected/controllers/FeedbackController.php (78)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:54:57 [warning] [application] Failed to set unsafe attribute "merchant_othername" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:54:57 [warning] [application] Failed to set unsafe attribute "merchant_manager" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:54:57 [warning] [application] Failed to set unsafe attribute "merchant_start_time" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:54:57 [warning] [application] Failed to set unsafe attribute "merchant_end_time" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:54:57 [warning] [application] Failed to set unsafe attribute "merchant_ser" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:54:57 [warning] [application] Failed to set unsafe attribute "merchant_tag" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:54:57 [warning] [application] Failed to set unsafe attribute "pro" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:54:57 [warning] [application] Failed to set unsafe attribute "city" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:54:57 [warning] [application] Failed to set unsafe attribute "area" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:54:57 [warning] [application] Failed to set unsafe attribute "address" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:54:57 [warning] [application] Failed to set unsafe attribute "longitude" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:54:57 [warning] [application] Failed to set unsafe attribute "latitude" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:54:57 [warning] [application] Failed to set unsafe attribute "merchant_traffic" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:54:57 [warning] [application] Failed to set unsafe attribute "free_service" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:54:57 [warning] [application] Failed to set unsafe attribute "merchant_desc" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:54:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 16:54:58 [error] [php] Undefined variable: isOk (/home/www/eatAdmin/admin/protected/views/feedback/new.php:21)
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CController.php(869): FeedbackController->renderFile()
+#1 /home/www/eatAdmin/framework/web/CController.php(782): FeedbackController->renderPartial()
+#2 /home/www/eatAdmin/admin/protected/controllers/FeedbackController.php(78): FeedbackController->render()
+#3 /home/www/eatAdmin/framework/web/actions/CInlineAction.php(49): FeedbackController->actionNew()
+#4 /home/www/eatAdmin/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/www/eatAdmin/framework/web/filters/CFilterChain.php(133): FeedbackController->runAction()
+#6 /home/www/eatAdmin/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /home/www/eatAdmin/framework/web/filters/CFilterChain.php(130): AdminFilter->filter()
+#8 /home/www/eatAdmin/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/www/eatAdmin/framework/web/CController.php(265): FeedbackController->runActionWithFilters()
+#10 /home/www/eatAdmin/framework/web/CWebApplication.php(282): FeedbackController->run()
+#11 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/www/eatAdmin/admin/index.php(17): CWebApplication->run()
+REQUEST_URI=/feedback/new.html
+in /home/www/eatAdmin/admin/protected/views/feedback/new.php (21)
+in /home/www/eatAdmin/admin/protected/controllers/FeedbackController.php (78)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:55:07 [warning] [application] Failed to set unsafe attribute "merchant_othername" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:55:07 [warning] [application] Failed to set unsafe attribute "merchant_manager" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:55:07 [warning] [application] Failed to set unsafe attribute "merchant_start_time" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:55:07 [warning] [application] Failed to set unsafe attribute "merchant_end_time" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:55:07 [warning] [application] Failed to set unsafe attribute "merchant_ser" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:55:07 [warning] [application] Failed to set unsafe attribute "merchant_tag" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:55:07 [warning] [application] Failed to set unsafe attribute "pro" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:55:07 [warning] [application] Failed to set unsafe attribute "city" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:55:07 [warning] [application] Failed to set unsafe attribute "area" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:55:07 [warning] [application] Failed to set unsafe attribute "address" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:55:07 [warning] [application] Failed to set unsafe attribute "longitude" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:55:07 [warning] [application] Failed to set unsafe attribute "latitude" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:55:07 [warning] [application] Failed to set unsafe attribute "merchant_traffic" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:55:07 [warning] [application] Failed to set unsafe attribute "free_service" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:55:07 [warning] [application] Failed to set unsafe attribute "merchant_desc" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:55:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 16:55:16 [warning] [application] Failed to set unsafe attribute "merchant_othername" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:55:16 [warning] [application] Failed to set unsafe attribute "merchant_manager" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:55:16 [warning] [application] Failed to set unsafe attribute "merchant_start_time" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:55:16 [warning] [application] Failed to set unsafe attribute "merchant_end_time" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:55:16 [warning] [application] Failed to set unsafe attribute "merchant_ser" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:55:16 [warning] [application] Failed to set unsafe attribute "merchant_tag" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:55:16 [warning] [application] Failed to set unsafe attribute "pro" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:55:16 [warning] [application] Failed to set unsafe attribute "city" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:55:16 [warning] [application] Failed to set unsafe attribute "area" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:55:16 [warning] [application] Failed to set unsafe attribute "address" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:55:16 [warning] [application] Failed to set unsafe attribute "longitude" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:55:16 [warning] [application] Failed to set unsafe attribute "latitude" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:55:16 [warning] [application] Failed to set unsafe attribute "merchant_traffic" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:55:16 [warning] [application] Failed to set unsafe attribute "free_service" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:55:16 [warning] [application] Failed to set unsafe attribute "merchant_desc" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:55:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 16:57:07 [warning] [application] Failed to set unsafe attribute "mid" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:57:07 [warning] [application] Failed to set unsafe attribute "merchant_othername" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:57:07 [warning] [application] Failed to set unsafe attribute "merchant_manager" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:57:07 [warning] [application] Failed to set unsafe attribute "merchant_start_time" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:57:07 [warning] [application] Failed to set unsafe attribute "merchant_end_time" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:57:07 [warning] [application] Failed to set unsafe attribute "merchant_ser" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:57:07 [warning] [application] Failed to set unsafe attribute "merchant_tag" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:57:07 [warning] [application] Failed to set unsafe attribute "pro" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:57:07 [warning] [application] Failed to set unsafe attribute "city" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:57:07 [warning] [application] Failed to set unsafe attribute "area" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:57:07 [warning] [application] Failed to set unsafe attribute "address" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:57:07 [warning] [application] Failed to set unsafe attribute "longitude" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:57:07 [warning] [application] Failed to set unsafe attribute "latitude" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:57:07 [warning] [application] Failed to set unsafe attribute "merchant_traffic" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:57:07 [warning] [application] Failed to set unsafe attribute "free_service" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:57:07 [warning] [application] Failed to set unsafe attribute "merchant_desc" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:57:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "files"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('files')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/files/
+HTTP_REFERER=http://testadmin.77tng.com/merchant/merchantIntroduce.html
+---
+2014/06/17 16:57:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "files/001.mp3"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('files/001.mp3')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/files/001.mp3
+HTTP_REFERER=http://testadmin.77tng.com/merchant/resources.html
+---
+2014/06/17 16:58:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 16:58:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 16:59:37 [warning] [application] Failed to set unsafe attribute "merchant_othername" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:59:37 [warning] [application] Failed to set unsafe attribute "merchant_manager" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:59:37 [warning] [application] Failed to set unsafe attribute "merchant_start_time" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:59:37 [warning] [application] Failed to set unsafe attribute "merchant_end_time" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:59:37 [warning] [application] Failed to set unsafe attribute "merchant_ser" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:59:37 [warning] [application] Failed to set unsafe attribute "merchant_tag" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:59:37 [warning] [application] Failed to set unsafe attribute "pro" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:59:37 [warning] [application] Failed to set unsafe attribute "city" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:59:37 [warning] [application] Failed to set unsafe attribute "area" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:59:37 [warning] [application] Failed to set unsafe attribute "address" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:59:37 [warning] [application] Failed to set unsafe attribute "longitude" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:59:37 [warning] [application] Failed to set unsafe attribute "latitude" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:59:37 [warning] [application] Failed to set unsafe attribute "merchant_traffic" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:59:37 [warning] [application] Failed to set unsafe attribute "free_service" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:59:37 [warning] [application] Failed to set unsafe attribute "merchant_desc" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 16:59:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:00:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:00:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:12:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:15:17 [warning] [application] Failed to set unsafe attribute "mid" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:17 [warning] [application] Failed to set unsafe attribute "merchant_othername" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:17 [warning] [application] Failed to set unsafe attribute "merchant_manager" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:17 [warning] [application] Failed to set unsafe attribute "merchant_logo" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:17 [warning] [application] Failed to set unsafe attribute "merchant_start_time" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:17 [warning] [application] Failed to set unsafe attribute "merchant_end_time" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:17 [warning] [application] Failed to set unsafe attribute "merchant_ser" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:17 [warning] [application] Failed to set unsafe attribute "merchant_tag" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:17 [warning] [application] Failed to set unsafe attribute "pro" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:17 [warning] [application] Failed to set unsafe attribute "city" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:17 [warning] [application] Failed to set unsafe attribute "area" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:17 [warning] [application] Failed to set unsafe attribute "address" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:17 [warning] [application] Failed to set unsafe attribute "longitude" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:17 [warning] [application] Failed to set unsafe attribute "latitude" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:17 [warning] [application] Failed to set unsafe attribute "merchant_traffic" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:17 [warning] [application] Failed to set unsafe attribute "free_service" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:17 [warning] [application] Failed to set unsafe attribute "merchant_desc" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:15:34 [warning] [application] Failed to set unsafe attribute "mid" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:34 [warning] [application] Failed to set unsafe attribute "merchant_othername" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:34 [warning] [application] Failed to set unsafe attribute "merchant_manager" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:34 [warning] [application] Failed to set unsafe attribute "merchant_logo" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:34 [warning] [application] Failed to set unsafe attribute "merchant_start_time" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:34 [warning] [application] Failed to set unsafe attribute "merchant_end_time" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:34 [warning] [application] Failed to set unsafe attribute "merchant_ser" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:34 [warning] [application] Failed to set unsafe attribute "merchant_tag" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:34 [warning] [application] Failed to set unsafe attribute "pro" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:34 [warning] [application] Failed to set unsafe attribute "city" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:34 [warning] [application] Failed to set unsafe attribute "area" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:34 [warning] [application] Failed to set unsafe attribute "address" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:34 [warning] [application] Failed to set unsafe attribute "longitude" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:34 [warning] [application] Failed to set unsafe attribute "latitude" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:34 [warning] [application] Failed to set unsafe attribute "merchant_traffic" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:34 [warning] [application] Failed to set unsafe attribute "free_service" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:34 [warning] [application] Failed to set unsafe attribute "merchant_desc" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:15:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:16:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:16:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:16:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "files/123.wav"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('files/123.wav')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/files/123.wav
+HTTP_REFERER=http://testadmin.77tng.com/goods/goodsResource.html
+---
+2014/06/17 17:16:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:16:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "files/001.mp3"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('files/001.mp3')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/files/001.mp3
+HTTP_REFERER=http://testadmin.77tng.com/merchant/resources.html
+---
+2014/06/17 17:16:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:18:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:19:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "files/001.mp3"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('files/001.mp3')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/files/001.mp3
+HTTP_REFERER=http://testadmin.77tng.com/merchant/resources.html
+---
+2014/06/17 17:19:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "files"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('files')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/files/
+---
+2014/06/17 17:19:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "files"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('files')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/files/
+---
+2014/06/17 17:19:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "files"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('files')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/files/
+---
+2014/06/17 17:20:07 [warning] [application] Failed to set unsafe attribute "goods_cat" of "GoodsForm".
+in /home/www/eatAdmin/admin/protected/controllers/GoodsController.php (172)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:20:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:20:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "files"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('files')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/files/
+---
+2014/06/17 17:20:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "files"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('files')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/files/
+---
+2014/06/17 17:20:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "files"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('files')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/files/
+---
+2014/06/17 17:20:25 [warning] [application] Failed to set unsafe attribute "goods_cat" of "GoodsForm".
+in /home/www/eatAdmin/admin/protected/controllers/GoodsController.php (172)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:20:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:20:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "files"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('files')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/files/
+---
+2014/06/17 17:20:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:21:13 [warning] [application] Failed to set unsafe attribute "goods_cat" of "GoodsForm".
+in /home/www/eatAdmin/admin/protected/controllers/GoodsController.php (172)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:21:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:21:22 [warning] [application] Failed to set unsafe attribute "goods_cat" of "GoodsForm".
+in /home/www/eatAdmin/admin/protected/controllers/GoodsController.php (172)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:21:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:21:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "files/001.mp3"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('files/001.mp3')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/files/001.mp3
+HTTP_REFERER=http://testadmin.77tng.com/merchant/resources.html
+---
+2014/06/17 17:21:30 [warning] [application] Failed to set unsafe attribute "goods_cat" of "GoodsForm".
+in /home/www/eatAdmin/admin/protected/controllers/GoodsController.php (172)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:21:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:22:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:22:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:22:50 [warning] [application] Failed to set unsafe attribute "goods_cat" of "GoodsForm".
+in /home/www/eatAdmin/admin/protected/controllers/GoodsController.php (172)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:22:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:22:58 [warning] [application] Failed to set unsafe attribute "goods_cat" of "GoodsForm".
+in /home/www/eatAdmin/admin/protected/controllers/GoodsController.php (172)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:22:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:23:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "files/123.wav"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('files/123.wav')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/files/123.wav
+HTTP_REFERER=http://testadmin.77tng.com/goods/goodsResource.html
+---
+2014/06/17 17:23:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:23:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "files/001.mp3"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('files/001.mp3')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/files/001.mp3
+HTTP_REFERER=http://testadmin.77tng.com/merchant/resources.html
+---
+2014/06/17 17:23:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:24:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:24:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:24:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:25:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:26:39 [warning] [application] Failed to set unsafe attribute "mid" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:26:39 [warning] [application] Failed to set unsafe attribute "merchant_othername" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:26:39 [warning] [application] Failed to set unsafe attribute "merchant_manager" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:26:39 [warning] [application] Failed to set unsafe attribute "merchant_logo" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:26:39 [warning] [application] Failed to set unsafe attribute "merchant_start_time" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:26:39 [warning] [application] Failed to set unsafe attribute "merchant_end_time" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:26:39 [warning] [application] Failed to set unsafe attribute "merchant_ser" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:26:39 [warning] [application] Failed to set unsafe attribute "merchant_tag" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:26:39 [warning] [application] Failed to set unsafe attribute "pro" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:26:39 [warning] [application] Failed to set unsafe attribute "city" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:26:39 [warning] [application] Failed to set unsafe attribute "area" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:26:39 [warning] [application] Failed to set unsafe attribute "address" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:26:39 [warning] [application] Failed to set unsafe attribute "longitude" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:26:39 [warning] [application] Failed to set unsafe attribute "latitude" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:26:39 [warning] [application] Failed to set unsafe attribute "merchant_traffic" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:26:39 [warning] [application] Failed to set unsafe attribute "free_service" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:26:39 [warning] [application] Failed to set unsafe attribute "merchant_desc" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:26:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:28:10 [warning] [application] Failed to set unsafe attribute "merchant_othername" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:28:10 [warning] [application] Failed to set unsafe attribute "merchant_manager" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:28:10 [warning] [application] Failed to set unsafe attribute "merchant_logo" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:28:10 [warning] [application] Failed to set unsafe attribute "merchant_start_time" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:28:10 [warning] [application] Failed to set unsafe attribute "merchant_end_time" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:28:10 [warning] [application] Failed to set unsafe attribute "merchant_ser" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:28:10 [warning] [application] Failed to set unsafe attribute "merchant_tag" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:28:10 [warning] [application] Failed to set unsafe attribute "pro" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:28:10 [warning] [application] Failed to set unsafe attribute "city" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:28:10 [warning] [application] Failed to set unsafe attribute "area" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:28:10 [warning] [application] Failed to set unsafe attribute "address" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:28:10 [warning] [application] Failed to set unsafe attribute "longitude" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:28:10 [warning] [application] Failed to set unsafe attribute "latitude" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:28:10 [warning] [application] Failed to set unsafe attribute "merchant_traffic" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:28:10 [warning] [application] Failed to set unsafe attribute "free_service" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:28:10 [warning] [application] Failed to set unsafe attribute "merchant_desc" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:28:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:28:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "files/001.mp3"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('files/001.mp3')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/files/001.mp3
+HTTP_REFERER=http://testadmin.77tng.com/merchant/resources.html
+---
+2014/06/17 17:28:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:31:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "files"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('files')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/files/
+---
+2014/06/17 17:32:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "files"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('files')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/files/
+---
+2014/06/17 17:32:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:33:52 [warning] [application] Failed to set unsafe attribute "goods_cat" of "GoodsForm".
+in /home/www/eatAdmin/admin/protected/controllers/GoodsController.php (172)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:33:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:33:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:34:38 [warning] [application] Failed to set unsafe attribute "goods_cat" of "GoodsForm".
+in /home/www/eatAdmin/admin/protected/controllers/GoodsController.php (172)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:34:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:34:48 [warning] [application] Failed to set unsafe attribute "goods_cat" of "GoodsForm".
+in /home/www/eatAdmin/admin/protected/controllers/GoodsController.php (172)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 17:34:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:36:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:36:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:36:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 17:45:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "files"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('files')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/files/
+---
+2014/06/17 17:49:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "files/001.mp3"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('files/001.mp3')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/files/001.mp3
+HTTP_REFERER=http://testadmin.77tng.com/merchant/resources.html
+---
+2014/06/17 17:50:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "files"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('files')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/files/
+---
+2014/06/17 18:28:22 [error] [php] Undefined offset: 0 (/home/www/eatAdmin/admin/protected/controllers/MerchantController.php:96)
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/filters/CFilterChain.php(133): MerchantController->runAction()
+#1 /home/www/eatAdmin/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /home/www/eatAdmin/framework/web/filters/CFilterChain.php(130): AdminFilter->filter()
+#3 /home/www/eatAdmin/framework/web/CController.php(291): CFilterChain->run()
+#4 /home/www/eatAdmin/framework/web/CController.php(265): MerchantController->runActionWithFilters()
+#5 /home/www/eatAdmin/framework/web/CWebApplication.php(282): MerchantController->run()
+#6 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/www/eatAdmin/admin/index.php(17): CWebApplication->run()
+REQUEST_URI=/merchant/resources.html
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (96)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 18:28:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 18:28:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 18:28:30 [error] [php] Undefined offset: 0 (/home/www/eatAdmin/admin/protected/controllers/MerchantController.php:96)
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/filters/CFilterChain.php(133): MerchantController->runAction()
+#1 /home/www/eatAdmin/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /home/www/eatAdmin/framework/web/filters/CFilterChain.php(130): AdminFilter->filter()
+#3 /home/www/eatAdmin/framework/web/CController.php(291): CFilterChain->run()
+#4 /home/www/eatAdmin/framework/web/CController.php(265): MerchantController->runActionWithFilters()
+#5 /home/www/eatAdmin/framework/web/CWebApplication.php(282): MerchantController->run()
+#6 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/www/eatAdmin/admin/index.php(17): CWebApplication->run()
+REQUEST_URI=/merchant/resources.html
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (96)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/17 18:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 18:28:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 18:28:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 18:28:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 18:28:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "files/001.mp3"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('files/001.mp3')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/files/001.mp3
+HTTP_REFERER=http://testadmin.77tng.com/merchant/resources.html
+---
+2014/06/17 18:28:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/18 10:15:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/18 17:59:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/18 17:59:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/19 09:39:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/19 09:47:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/19 09:47:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/19 12:22:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/19 12:22:42 [warning] [application] Failed to set unsafe attribute "mid" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/19 12:22:42 [warning] [application] Failed to set unsafe attribute "merchant_othername" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/19 12:22:42 [warning] [application] Failed to set unsafe attribute "merchant_manager" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/19 12:22:42 [warning] [application] Failed to set unsafe attribute "merchant_logo" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/19 12:22:42 [warning] [application] Failed to set unsafe attribute "merchant_start_time" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/19 12:22:42 [warning] [application] Failed to set unsafe attribute "merchant_end_time" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/19 12:22:42 [warning] [application] Failed to set unsafe attribute "merchant_ser" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/19 12:22:42 [warning] [application] Failed to set unsafe attribute "merchant_tag" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/19 12:22:42 [warning] [application] Failed to set unsafe attribute "pro" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/19 12:22:42 [warning] [application] Failed to set unsafe attribute "city" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/19 12:22:42 [warning] [application] Failed to set unsafe attribute "area" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/19 12:22:42 [warning] [application] Failed to set unsafe attribute "address" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/19 12:22:42 [warning] [application] Failed to set unsafe attribute "longitude" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/19 12:22:42 [warning] [application] Failed to set unsafe attribute "latitude" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/19 12:22:42 [warning] [application] Failed to set unsafe attribute "merchant_traffic" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/19 12:22:42 [warning] [application] Failed to set unsafe attribute "free_service" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/19 12:22:42 [warning] [application] Failed to set unsafe attribute "merchant_desc" of "MerchantAddForm".
+in /home/www/eatAdmin/admin/protected/controllers/MerchantController.php (326)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/19 15:23:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "files"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('files')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/files/
+---
+2014/06/20 13:00:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/20 13:07:45 [warning] [application] Failed to set unsafe attribute "goods_cat" of "GoodsForm".
+in /home/www/eatAdmin/admin/protected/controllers/GoodsController.php (214)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/20 13:08:39 [warning] [application] Failed to set unsafe attribute "goods_cat" of "GoodsForm".
+in /home/www/eatAdmin/admin/protected/controllers/GoodsController.php (214)
+in /home/www/eatAdmin/admin/index.php (17)
+2014/06/22 16:53:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/23 10:23:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/23 10:23:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/23 10:24:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "files/001.mp3"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('files/001.mp3')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/files/001.mp3
+HTTP_REFERER=http://testadmin.77tng.com/merchant/resources.html
+---
+2014/06/23 10:24:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "files/123.wav"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('files/123.wav')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/files/123.wav
+HTTP_REFERER=http://testadmin.77tng.com/goods/goodsResource.html
+---
+2014/06/23 10:33:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "files/001.mp3"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('files/001.mp3')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/files/001.mp3
+HTTP_REFERER=http://testadmin.77tng.com/merchant/resources.html
+---
+2014/06/23 10:33:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "files/123.wav"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('files/123.wav')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/files/123.wav
+HTTP_REFERER=http://testadmin.77tng.com/goods/goodsResource.html
+---
+2014/06/23 17:15:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/24 11:41:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/24 14:20:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/24 14:20:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/24 14:20:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "files/001.mp3"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('files/001.mp3')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/files/001.mp3
+HTTP_REFERER=http://testadmin.77tng.com/merchant/resources.html
+---
+2014/06/24 15:48:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "robots.txt"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2014/06/24 22:22:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "robots.txt"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2014/06/25 10:25:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/25 10:25:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/25 11:17:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "files"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('files')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/files/
+---
+2014/06/25 14:53:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/25 14:53:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /home/www/eatAdmin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/www/eatAdmin/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/www/eatAdmin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/www/eatAdmin/admin/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---

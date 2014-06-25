@@ -1,0 +1,42 @@
+<?php
+	$aSQLCon = array (
+		"merchant_send_msg_log"=>array(
+			"tableName"=>"merchant_send_msg_log",
+			"element"=>array(
+				"id"=>array(
+					"type"=>"bigint",
+					"rule"=>"",
+					"rType"=>"list"
+				),
+				"user_id"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"merchant_id"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"merchant_send_id"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"send_time"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"status"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+			),
+			"priKey"=>"id",
+			"abre"=>"merchant_send_msg_log"
+		),
+	);
+?>
+

@@ -1,0 +1,276 @@
+<div id="content">
+  <div id="content-header">
+    <div id="breadcrumb"><a href="<?php echo $this->createUrl("site/index");?>" title="主页" class="tip-bottom"><i class="icon-home"></i> 主页</a> <a href="#" class="current">预约订单详情</a> </div>
+    <h1><span class="icon"> <i class="icon-edit"></i> </span>预约订单详情</h1>
+  </div>
+
+  <div class="container-fluid"><hr>
+    <div class="row-fluid">
+        <div class="widget-box">
+          <div class="widget-title"> <span class="icon"> <i class="icon-briefcase"></i> </span>
+            <h5 >订单编号：<?php echo $abookArr['book_or_num']?$abookArr['book_or_num']:'暂无数据记录';?></h5>
+          </div>
+          <div class="widget-content">
+            <div class="row-fluid">
+              <div class="span6">
+                <table border="0" cellpadding="0" cellspacing="0" class="" style="font-size:14px;">
+                  <tbody>
+                    <tr>
+                      <td><h3><?php echo isset($abookArr['book_name'])?$abookArr['book_name']:'暂无数据记录'; ?></h3></td>
+                    </tr>
+                    <tr><?php echo isset($abookArr[''])?$abookArr['']:''; ?>
+                      <td>广东省/广州市/天河区</td>
+                      <td>客户电话：<?php echo isset($abookArr['book_phone'])?$abookArr['book_phone']:'暂无数据记录'; ?></td>
+                    </tr>
+                    <tr>
+                      <td>联系电话：<?php echo isset($abookArr['book_phone'])?$abookArr['book_phone']:'暂无数据记录'; ?></td>
+                      <td>联系人：<?php echo isset($abookArr['book_name'])?$abookArr['book_name']:'暂无数据记录'; ?></td>
+                    </tr>
+                    <tr>
+                      <td>就座餐桌：<?php echo (isset($abookArr['book_seat_type'])&&isset($abookArr['book_seat_num'])&&$abookArr['book_seat_type'])?$abookArr['book_seat_type'].$abookArr['book_seat_num']:'暂未安排'; ?></td>
+                    </tr>
+                  </tbody>
+                </table><br><br>
+				<div class="row-fluid">
+				<?php if ($abookArr['status']==1) {
+					?>
+					<a class="btn btn-success btn-large span4" href="#myModal" data-toggle="modal"><i class="icon-ok"></i> 排队到号</a>
+				<?php }else if ($abookArr['status']==2){
+				?>
+				<a class="btn btn-success btn-large span4" href="javascript:changeStatus(<?php echo $abookArr['id'];?>,3)"><i class="icon-ok"></i> 客户到店</a>
+				<?php 
+				}else{?>
+					<a class="btn btn-success btn-large span4" href="javascript:changeStatus(<?php echo $abookArr['id'];?>,1)"><i class="icon-ok"></i> 加入排队</a>
+				<?php }?>
+				<a class="btn btn-success btn-large span4" href='javascript:addTime(<?php echo $abookArr['id'];?>)'><i class="icon-time"></i> 排队延时</a><a class="btn btn-success btn-large span4" href="javascript:noticeByMessage();"><i class="icon-envelope"></i> 短信提醒</a>
+				
+				<div id="myModal" class="modal hide">
+                                          <div class="modal-header">
+                                            <button data-dismiss="modal" class="close" type="button">×</button>
+                                            <h3>选择坐席位置</h3>
+                                          </div>
+                                          <div class="modal-body">
+                                                <div class="quick-actions_homepage">
+                                                  <ul class="quick-actions padding-L20">
+                                                   <?php 
+                                                  if (isset($seatList[$abookArr['book_type']])) {
+														foreach ($seatList[$abookArr['book_type']] as $iSLKey => $aSLval){?>
+														<li class="bg_lg"><a href="javascript:changeOrder(<?php echo $abookArr['id'];?>,2,<?php echo $aSLval->id;?>,'<?php echo $aSLval->seat_type;?>',<?php echo $aSLval->seat_num;?>,<?php echo $abookArr['status'];?>)"><span class="store-txt"><?php echo BaseFunctions::changeShow('seatType',$abookArr['book_type'],'未知'); ?></span><br><span class="store-number"><?php echo $abookArr['book_type'].$aSLval->seat_num;?></span></a></li>
+													<?php }
+													
+                                                  }else{
+													
+											      }
+											      foreach ($seatList as $iSLKey => $aSLval){
+											      	if ($iSLKey!=$abookArr['book_type']) {
+											      															foreach ($aSLval as $adetailSLVal){?>
+											      														<li class="bg_lg"><a href="javascript:changeOrder(<?php echo $abookArr['id'];?>,2,<?php echo $adetailSLVal->id;?>,'<?php echo $adetailSLVal->seat_type;?>',<?php echo $adetailSLVal->seat_num;?>,<?php echo $abookArr['status'];?>)"><span class="store-txt"><?php echo BaseFunctions::changeShow('seatType',$iSLKey,'未知'); ?></span><br><span class="store-number"><?php echo $iSLKey.$adetailSLVal->seat_num;?></span></a></li>
+											      														<?php }
+											      														}
+											      													}
+                                                  ?>
+                                                  </ul>
+                                                </div>
+                                          </div>
+                                   	</div>
+				</div><br>
+              </div>
+              <div class="span6">
+				<div class=" row-fluid">
+                	<div class="quick-actions_homepage">
+                      <ul class="quick-actions">
+                        <li class="bg_ly span3 pull-right"> <a href=""><span style="font-size:16px; line-height:16px;">订单<?php echo BaseFunctions::changeShow('bookStatus',$abookArr['status'],'未知');?></span><br><span style="font-size:48px; line-height:48px;"><strong><?php echo isset($abookArr['book_type'])&&isset($abookArr['book_no'])?$abookArr['book_type'].$abookArr['book_no']:''; ?></strong></span></a> </li>
+                      </ul>
+                    </div>
+                </div>
+              </div>
+            </div>
+            
+              
+            <div class="row-fluid">
+            	<div class="span12">
+                <table class="table table-invoice" style="font-size:14px">
+                  <tbody>
+                    <tr>
+                    <tr>
+                      <td><strong>预订时间：</strong></td>
+                      <td><span class="badge badge-important badge-font"><?php echo isset($abookArr['book_time'])?$abookArr['book_time']:"未填";?></span></td>
+                    </tr>
+                    <tr>
+                      <td class="width10"><strong>订单状态：</strong></td>
+                      <td class="width90"><?php echo isset($abookArr['status'])?BaseFunctions::changeShow('bookStatus',$abookArr['status'],'未知'):'未知';?></td>
+                    </tr>
+                    <tr>
+                      <td class="width10"><strong>订单类型：</strong></td>
+                      <td class="width90">线上订单</td>
+                    </tr>
+                    <tr>
+                      <td><strong>订单时间：</strong></td>
+                      <td><?php echo (isset($abookArr['add_time'])&&$abookArr['add_time'])?date("Y-m-d H:i",$abookArr['add_time']):"未定";?></td>
+                    </tr>
+                    <tr>
+                      <td><strong>完成时间：</strong></td>
+                      <td><?php echo (isset($abookArr['over_time'])&&$abookArr['over_time'])?date("Y-m-d H:i",$abookArr['over_time']):"未定";?></td>
+                    </tr>
+                    <tr>
+                      <td><strong>人数：</strong></td>
+                      <td><span class="badge badge-other badge-font"><?php echo isset($abookArr['book_num'])?$abookArr['book_num']:'0';?></span></td>
+                    </tr>
+                    <tr>
+                      <td><strong>餐桌：</strong></td>
+                      <td>客户要求<?php echo isset($abookArr['book_type'])?BaseFunctions::changeShow('seatType',$abookArr['book_type'],'未知'):'无';?></td>
+                    </tr>
+                    <tr>
+                      <td><strong>优惠劵：</strong></td>
+                      <td>
+                      <span class="badge badge-other badge-font"><i class="<?php echo isset($abookArr['cou_list'])&&$abookArr['cou_list']?"icon-ok":"icon-ban-circle";?>"></i></span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><strong>预订菜单：</strong></td>
+                      <td><span class="badge badge-other badge-font"><i class="icon-ok"></i></span></td>
+                    </tr>
+                    </tbody>
+                  
+                </table>
+              </div>
+            </div>
+            <div class="row-fluid">
+              <div class="span12">
+                <table class="table table-bordered table-striped" style="font-size:14px">
+                  <thead>
+                    <tr>
+                      <th width="60%">菜品名称</th>
+                      <th width="10%">点餐份数</th>
+                      <th width="10%">菜品原价</th>
+                      <th width="10%">菜品现价</th>
+                      <th width="10%">小计价格</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                  <?php foreach ($ordreGoods as $iteam):?>
+                    <tr>
+                      <td width="60%"><?php echo $iteam['name'];?></td>
+                      <td width="10%"><?php echo $iteam['num']?$iteam['num']:0;?></td>
+                      <td width="10%">￥<?php echo $iteam['o_gold']?$iteam['o_gold']:0;?></td>
+                      <td width="10%">￥<?php echo $iteam['gold']?$iteam['gold']:0;?></td>
+                      <td width="10%"><strong>￥<?php echo $iteam['total']?$iteam['total']:0;?></strong></td>
+                    </tr>
+                  <?php endforeach;?>
+                  
+<!--                     <tr> -->
+<!--                       <td width="60%"><a href="">龙井炒虾仁</a></td> -->
+<!--                       <td width="10%">2</td> -->
+<!--                       <td width="10%">￥150</td> -->
+<!--                       <td width="10%">￥150</td> -->
+<!--                       <td width="10%"><strong>￥300</strong></td> -->
+<!--                     </tr> -->
+<!--                     <tr> -->
+<!--                       <td width="60%"><a href="">龙井炒虾仁</a></td> -->
+<!--                       <td width="10%">2</td> -->
+<!--                       <td width="10%">￥150</td> -->
+<!--                       <td width="10%">￥150</td> -->
+<!--                       <td width="10%"><strong>￥300</strong></td> -->
+<!--                     </tr>                     -->
+                  </tbody>
+                </table>
+                <table class="table table-bordered table-striped" style="font-size:14px">
+                  <tbody>
+                    <tr>
+                      <td width="80%">
+<!--                       <h4>付款方式：<a href="#" class="tip-bottom" title="Wire Transfer">餐到付款</a></h4> -->
+                      </td>
+                      <td width="10%"><strong>小计总价</strong> <br>
+                        <strong>优惠价格</strong></td>
+                      <td width="10%"><strong>￥<?php echo $iCTotal?$iCTotal:0;?> <br>
+                        ￥0</strong></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="pull-right">
+                  <h4><span>实际付款金额:</span> ￥<?php echo $iTotal?$iTotal:0;?></h4>
+                  <br>
+                  <a class="btn btn-success btn-large pull-right" href="#">打印订单</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<script src="<?php echo Yii::app()->baseUrl;?>/js/jquery.min.js"></script> 
+<script src="<?php echo Yii::app()->baseUrl;?>/js/jquery.ui.custom.js"></script> 
+<script src="<?php echo Yii::app()->baseUrl;?>/js/bootstrap.min.js"></script> 
+<script src="<?php echo Yii::app()->baseUrl;?>/js/jquery.uniform.js"></script> 
+<script src="<?php echo Yii::app()->baseUrl;?>/js/select2.min.js"></script> 
+<script src="<?php echo Yii::app()->baseUrl;?>/js/jquery.dataTables.min.js"></script> 
+<script src="<?php echo Yii::app()->baseUrl;?>/js/matrix.js"></script> 
+<script src="<?php echo Yii::app()->baseUrl;?>/js/matrix.tables.js"></script>
+
+<script src="<?php echo Yii::app()->baseUrl;?>/js/jquery.gritter.min.js"></script> 
+<script src="<?php echo Yii::app()->baseUrl;?>/js/jquery.peity.min.js"></script> 
+<script src="<?php echo Yii::app()->baseUrl;?>/js/matrix.interface.js"></script> 
+<script src="<?php echo Yii::app()->baseUrl;?>/js/matrix.popover.js"></script>
+
+<script>function changeOrder(oId,toSta,seatId,seatType,seatNum,nowSta){
+	var clickType = $("#clickType").val();
+	if(clickType){
+		$.post("<?php echo $this->createUrl('orders/changeOrderStatus')?>",
+	  			{
+	  			id:oId,
+	  			toStatus:toSta,
+	  			seatType:seatType,
+	  			seatNum:seatNum,
+	  			seatId:seatId,
+	  			nowStatus:nowSta,
+	  			clType:clickType
+	  			},
+	  			function(code,status){
+	  			alert(code);
+	  			//$("#content_code").text(code);
+	 			location.reload(); 
+	  	});  
+	}
+}
+function changeStatus(id,sta){
+	
+	$.post("<?php echo $this->createUrl('orders/changeOrderSta')?>",
+	{
+		id:id,
+		sta:sta
+	},
+	function(code,status){
+		alert(code);
+		//$("#content_code").text(code);
+		location.reload();
+	});
+
+}
+
+function addTime(id){
+	$.post("<?php echo $this->createUrl('orders/addTime')?>",
+			{
+				id:id
+			},
+			function(code,status){
+				alert(code);
+			});
+}
+
+function noticeByMessage(){
+	$.post("<?php echo $this->createUrl('message/notice')?>",
+			{
+		to_user_id:"<?php echo $abookArr['user_id']?$abookArr['user_id']:'';?>",
+		to_cus_id:"<?php echo $abookArr['customer_id']?$abookArr['customer_id']:'';?>",
+		to_user_name:"<?php echo $abookArr['book_name']?$abookArr['book_name']:'';?>",
+		to_iphone:"<?php echo $abookArr['book_phone']?$abookArr['book_phone']:'';?>"
+			},
+			function(code,status){
+				var tempData2 =eval("("+code+")");
+  				alert(tempData2.msg);
+				//$("#content_code").text(code);
+				//location.reload();
+			});
+}
+</script>

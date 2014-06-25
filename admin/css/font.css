@@ -1,0 +1,18 @@
+@font-face {
+  font-family:"微软雅黑", Verdana;
+  font-style: normal;
+  font-weight: 400;
+  src: local('微软雅黑'), local('微软雅黑'), url(cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+@font-face {
+  font-family:"微软雅黑", Verdana;
+  font-style: normal;
+  font-weight: 700;
+  src: local('微软雅黑 Bold'), local('微软雅黑-Bold'), url(k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+@font-face {
+  font-family:"微软雅黑", Verdana;
+  font-style: normal;
+  font-weight: 800;
+  src: local('微软雅黑 Extrabold'), local('微软雅黑-Extrabold'), url(EInbV5DfGHOiMmvb1Xr-hqRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}

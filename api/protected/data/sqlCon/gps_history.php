@@ -1,0 +1,47 @@
+<?php
+	$aSQLCon = array (
+		"gps_history"=>array(
+			"tableName"=>"gps_history",
+			"element"=>array(
+				"id"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"list"
+				),
+				"user_id"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"merchant_id"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"longitude"=>array(
+					"type"=>"double",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"latitude"=>array(
+					"type"=>"double",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"altitude"=>array(
+					"type"=>"double",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"add_time"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+			),
+			"priKey"=>"id",
+			"abre"=>"gps_history"
+		),
+	);
+?>
+

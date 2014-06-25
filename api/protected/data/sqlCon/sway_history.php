@@ -1,0 +1,57 @@
+<?php
+	$aSQLCon = array (
+		"sway_history"=>array(
+			"tableName"=>"sway_history",
+			"element"=>array(
+				"id"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"list"
+				),
+				"user_id"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"good_id"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"merchant_id"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"shake_time"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"shake_type"=>array(
+					"type"=>"int",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"longitude"=>array(
+					"type"=>"double",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"latitude"=>array(
+					"type"=>"double",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+				"altitude"=>array(
+					"type"=>"double",
+					"rule"=>"",
+					"rType"=>"string"
+				),
+			),
+			"priKey"=>"id",
+			"abre"=>"sway_history"
+		),
+	);
+?>
+
